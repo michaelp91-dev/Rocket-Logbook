@@ -16,7 +16,7 @@ A terminal-based logbook application for tracking model rocket launches.
 ```bash
 apt update && apt upgrade
 apt install git
-git clone https://github.com/YOUR_USERNAME/rocket-logbook.git
+git clone https://github.com/michaelp91-dev/rocket-logbook.git
 cd rocket-logbook
 chmod +x install_termux.sh
 ./install_termux.sh
