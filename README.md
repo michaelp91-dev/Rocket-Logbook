@@ -10,36 +10,17 @@ A terminal-based logbook application for tracking model rocket launches.
 - Search for records by date or rocket type
 - View statistics about your launches including success rates, altitude records, and most used rockets/motors
 
-## Installation
-
-You can install Rocket Logbook directly from this repository:
-
-```bash
-pip install git+https://github.com/yourusername/rocket-logbook.git
-```
-
-Or install it locally for development:
-
-```bash
-git clone https://github.com/yourusername/rocket-logbook.git
-cd rocket-logbook
-pip install -e .
-```
-
 ### Installation on Termux (Android)
 
-To install and use Rocket Logbook on Termux:
 
-1. Install Termux from the F-Droid store
-2. Update packages and install Python:
-   ```bash
-   pkg update && pkg upgrade
-   pkg install python
-   ```
-3. Install Rocket Logbook:
-   ```bash
-   pip install git+https://github.com/yourusername/rocket-logbook.git
-   ```
+```bash
+apt update && apt upgrade
+apt install git
+git clone https://github.com/YOUR_USERNAME/rocket-logbook.git
+cd rocket-logbook
+chmod +x install_termux.sh
+./install_termux.sh
+```
 
 ## Usage
 
