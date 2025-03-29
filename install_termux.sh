@@ -46,7 +46,7 @@ if [ -d "rocket-logbook" ]; then
     pip install -e .
 else
     echo "Performing new Rocket Logbook installation..."
-    git clone https://github.com/yourusername/rocket-logbook.git
+    git clone https://github.com/michaelp91-dev/rocket-logbook.git
     cd rocket-logbook
     pip install -e .
 fi
